@@ -18,7 +18,7 @@ nextISSTimesForMyLocation((error, passTimes) => {
   printPassTimes(passTimes);
 });
 
-
+module.exports = printPassTimes;
 // fetchMyIP((error, ip) => {
 //   if (error) {
 //     console.log("It didn't work!" , error);
